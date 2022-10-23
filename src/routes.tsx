@@ -20,13 +20,27 @@ import { IRoute } from 'types/navigation'
 
 const routes: IRoute[] = [
   {
-    name: 'Main Dashboard',
+    name: 'Dahsboard',
     layout: '/admin',
     path: '/default',
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: MainDashboard
   },
   {
+    name: 'Exchange Tokens',
+    layout: '/admin',
+    path: '/default',
+    icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
+    component: MainDashboard
+  },
+  {
+    name: 'Stake Tokens',
+    layout: '/admin',
+    path: '/default',
+    icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
+    component: MainDashboard
+  },
+  /*{
     name: 'NFT Marketplace',
     layout: '/admin',
     path: '/nft-marketplace',
@@ -47,14 +61,14 @@ const routes: IRoute[] = [
     icon: <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />,
     path: '/data-tables',
     component: DataTables
-  },
+  },*/
   {
     name: 'Profile',
     layout: '/admin',
     path: '/profile',
     icon: <Icon as={MdPerson} width='20px' height='20px' color='inherit' />,
     component: Profile
-  },
+  },/*
   {
     name: 'Sign In',
     layout: '/auth',
@@ -68,7 +82,7 @@ const routes: IRoute[] = [
     path: '/rtl-default',
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: RTL
-  }
+  }*/
 ]
 
 export default routes
